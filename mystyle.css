@@ -1,0 +1,134 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*global*/
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+h3{
+    font-size: 35px;
+}
+
+h4{
+    font-size: 30px;
+}
+img{
+    width: 100%;
+}
+
+/*header */
+.header-index{
+    background-image: url(img/banner.jpg);
+    color: white;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.header-index a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: size 10px;
+}
+
+.heading-index h1{
+    font-weight: 400;
+}
+
+.header-index h1 span{
+    font-weight: 700;
+}
+
+/*buttons*/
+
+.btn{
+    display: block;
+    text-align: center;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+    width: 200px;
+    margin-bottom: 20px;
+    padding:5px
+}
+
+
+/*footer*/
+footer{
+    background-color: black;
+    text-align: center;
+
+}
+
+footer p{
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.about-section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    height: 60vh;
+}
+
+.about-main-img{
+    flex-basis: 0 0 50%;
+    padding: 10px;
+}
+
+.about-main-text{
+    padding: 10px;
+
+}
+.contact-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:60vh ;
+    background-image: url(img/contact.jpg);
+    color:grey;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contact-main-text{
+    padding: 10px;
+}
+
+.contact-main-img{
+    flex-basis: 0 0 50%;
+    padding: 10px;
+}
+
